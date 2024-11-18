@@ -10,5 +10,3 @@ function amountSold(tvArray) {
 }
 
 export default amountSold;
-
-console.log("Totaal aantal verkochte tv's:", amountSold(inventory));
