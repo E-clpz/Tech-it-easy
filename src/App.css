@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 2000px;
+    padding: 40px;
+}
+
+.numbers-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.numbers-container-sold-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    color:green;
+    background-color: lightgreen;
+    border-color: green;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.numbers-container-bought-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    color:Blue;
+    background-color: Lightblue;
+    border-color: Blue;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.numbers-container-stock-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    color:Red;
+    background-color: lightcoral;
+    border-color: Red;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
