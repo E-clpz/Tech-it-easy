@@ -163,5 +163,5 @@ function App() {
         </>
     )
 }
-
+//blijkbaar moet er wer iets veranderen voor ik mag pushen.
 export default App
